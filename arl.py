@@ -23,7 +23,7 @@ from mlxtend.frequent_patterns import apriori, association_rules
 
 # https://archive.ics.uci.edu/ml/datasets/Online+Retail+II
 
-df_ = pd.read_excel("D:/MIUUL/RECOMMENDATİON SYSTEMS/recommender_systems/datasets/online_retail_II.xlsx",
+df_ = pd.read_excel("location",
                     sheet_name="Year 2009-2010")
 df = df_.copy()
 
